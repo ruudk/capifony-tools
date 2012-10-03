@@ -1,0 +1,15 @@
+{
+	"name":        "ruudk/capifony-tools",
+	"type":        "library",
+	"description": "Handy tools for Capifony",
+	"keywords":    ["capifony", "deploy"],
+	"homepage":    "http://github.com/ruudk/capifony-tools",
+	"license":     "MIT",
+
+	"authors": [
+		{
+			"name": "Ruud Kamphuis",
+			"email": "ruudk@mphuis.com"
+		}
+	]
+}

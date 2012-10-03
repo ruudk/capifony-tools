@@ -1,4 +1,4 @@
-capifony-tools
+Capifony Tools
 ==============
 
 Handy tools for Capifony
