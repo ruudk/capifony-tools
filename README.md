@@ -21,6 +21,10 @@ Handy tools for Capifony
 
 ## Installation
 
+Require the package with Composer
+
+``php composer.phar require ruudk/capifony-tools``
+
 Add the following line to your capfile
 
 ````rb
