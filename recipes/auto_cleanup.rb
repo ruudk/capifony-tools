@@ -1,3 +1,4 @@
+after 'deploy:migrations', 'deploy:auto_cleanup'
 after 'deploy', 'deploy:auto_cleanup'
 
 namespace :deploy do
