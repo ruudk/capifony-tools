@@ -1,4 +1,5 @@
-after 'update_code', 'symfony:apc'
+after 'deploy:migrations', 'symfony:apc'
+after 'deploy', 'symfony:apc'
 
 namespace :symfony do
   task :apc, :roles => :app do
