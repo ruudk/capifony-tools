@@ -13,8 +13,8 @@ Handy tools for Capifony
   After the symfony:cache:warmup command has been executed the permissions on
   the app/cache folder will be updated with setacl.
 
-* APC
-  After the deploy is completed the APC cache is cleared via the ApcBundle.
+* Ask Branch
+  Ask the branch to deploy.
 
 * Auto cleanup
   After the deploy is completed all old releases will be deleted.
@@ -28,5 +28,5 @@ Require the package with Composer
 Add the following line to your capfile
 
 ````rb
-load 'vendor/ruudk/capifony-tools/load.rb'
+load 'vendor/ruudk/capifony-tools/recipes/recipe-you-want.rb'
 ````
