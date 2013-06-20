@@ -13,7 +13,7 @@ class BranchedDeploy
   def prompt
     begin
       branch = ask
-    end # while invalid_branch? branch
+    end while invalid_branch? branch
     branch
   end
 
@@ -43,7 +43,7 @@ class GitBranch
   end
 
   def exists?(branch)
-    branches.include? branch
+    all.include? branch
   end
 
   private
