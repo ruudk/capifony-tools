@@ -7,7 +7,7 @@ namespace :symfony do
     dirs = writable_dirs
     dirs.delete(app_path + "/cache")
 
-    run "cd #{latest_release} && setfacl -d -P -m u:#{webserver_user}:rwx -m u:#{user}:rwx #{dirs.join(" ")}"
+    run "cd #{shared_path} && setfacl -d -P -m u:#{webserver_user}:rwx -m u:#{user}:rwx #{dirs.join(" ")}"
 
     capifony_puts_ok
 
